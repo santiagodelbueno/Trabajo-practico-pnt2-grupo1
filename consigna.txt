@@ -1,0 +1,24 @@
+En equipos:
+- Consumir la API de ricky&morty https://rickandmortyapi.com/api/character y mostrar todos los personajes en cards aplicando paginacion.
+- Poder buscar por nombre y que me devuelva la card con ese nombre.
+- Poder filtrar por estado('Alive', 'Dead' or 'unknown').
+- Poder buscar por especies.
+- Subir a un repo de git y mandarmelo por mail a jongibaut@gmail.com con fecha de entrega del 11/4.
+
+
+Pagination:
+<nav aria-label="Page navigation example">
+  <ul class="pagination" id="paginator">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    agregar un previous y un next que cuando se apreten ejecuten una funcion que me actualize las cards de la respectiva (en info tienen info.next y info.prev)
+  </ul>
+</nav>
+
+
+<select id="filtrar" onchange = "filtrar()" >
+            <option class="drop-down" selected value=""></option>
+            <option class="drop-down" value=""></option>
+            <option class="drop-down" value=""></option>
+        </select>
+
